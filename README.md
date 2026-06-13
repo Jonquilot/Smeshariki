@@ -29,32 +29,32 @@ Smeshariki/
 
 ### Root variables
 
-`div`     — color for the main div
-`text`    — color for the main text
-`nav_act` — color for current navigation link
+- `div`     — color for the main div
+- `text`    — color for the main text
+- `nav_act` — color for current navigation link
 
 ### Tags specifications
 
-`@font-face` — custom font import
-`body`       — font, background, align and padding set
-`td`         — padding set
-`a`          — size and font color set
-`a:hover`    — font color set
-`li::marker` — marker color matched with text color
+- `@font-face` — custom font import
+- `body`       — font, background, align and padding set
+- `td`         — padding set
+- `a`          — size and font color set
+- `a:hover`    — font color set
+- `li::marker` — marker color matched with text color
 
 ### Classes
 
-`header1`        — main text headings
-`nav_link`       — page link in upper havigation bar
-`nav_link:hover` — color for hovered link
-`nav_current`    — current page link in upper navigation bar
-`nav_table`      — table for upper navigation bar
-`main_div`       — div for main content
-`decor`          — decorational images
-`mini`           — scroll to top icon
-`frame`          — images of participants
-`portrait`       — images of characters on their analysis page
-`text`           — main text
+- `header1`        — main text headings
+- `nav_link`       — page link in upper havigation bar
+- `nav_link:hover` — color for hovered link
+- `nav_current`    — current page link in upper navigation bar
+- `nav_table`      — table for upper navigation bar
+- `main_div`       — div for main content
+- `decor`          — decorational images
+- `mini`           — scroll to top icon
+- `frame`          — images of participants
+- `portrait`       — images of characters on their analysis page
+- `text`           — main text
 
 ## Tech stack
 
