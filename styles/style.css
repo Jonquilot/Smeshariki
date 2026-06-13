@@ -1,0 +1,136 @@
+:root {
+    --div: #f1d8a5;
+    --accent: #43CCE8;
+    --text: #896317;
+    --nav_act: #893217;
+}
+
+@font-face {
+  font-family: "Smeshariki";
+  src: url('fonts/Smeshariki.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    display: flex;
+    font-family: "Smeshariki", Arial, sans-serif;
+    background-image: url('imgs/bg_pic.png');
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    align-items: center;
+    min-height: 800px;
+    flex-direction: column;
+    padding: 25px 0;
+    overflow-x: hidden;
+}
+
+td, th {
+    padding: 10px;
+}
+
+a {
+    font-size: 25px;
+    color: var(--text);
+    line-height: 200%;
+}
+
+a:hover {
+    color: var(--nav_act);
+}
+
+li::marker {
+  color: #896317;
+}
+
+.header1 {
+    font-size: 80px;
+    color: var(--text);
+    line-height: 100%;
+    margin: 20px 10px 20px 10px;
+}
+
+.nav_link {
+    color:var(--text);
+    font-size: 45px;
+    font-weight: normal;
+    line-height: 120%;
+    text-decoration: none;
+}
+
+.nav_link:hover {
+    color: #1e0487;
+    text-decoration: underline;
+}
+
+.nav_current {
+    color:var(--nav_act);
+    font-size: 45px;
+    font-weight: normal;
+    line-height: 120%;
+    text-decoration: none;
+}
+
+.nav_table {
+    box-align: center;
+    background-color: var(--div);
+    border-radius: 10px;
+    margin: 0px;
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+
+.nav_table {
+    box-align: center;
+    background-color: var(--div);
+    border-radius: 10px;
+    margin: 20px;
+    border-collapse: separate;
+    border-spacing: 15px;
+    font-size: 30px;
+}
+
+.main_div {
+    background-color: var(--div);
+    height: auto;
+    width: 75%;
+    text-align: left;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    margin: 15px;
+}
+
+.decor {
+    margin: 10px;
+    max-width: 40%;
+    max-height: 40%;
+    padding: 0px 20px 0px 20px;
+}
+
+.mini {
+    width: 100px;
+    height: 100px;
+    padding: 0px 0px 0px 0px;
+    display: block; 
+    margin: auto;
+}
+
+.frame {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+.portrait {
+    width: 400px;
+    height: 400px;
+}
+
+.text {
+    font-size: 30px;
+    color: var(--text);
+    line-height: 200%;
+}
