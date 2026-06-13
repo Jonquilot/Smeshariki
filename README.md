@@ -1,2 +1,2 @@
-# Smeshariki
-Smeshariki website 4 fun
+# Website link:
+https://jonquilot.github.io/Smeshariki/
