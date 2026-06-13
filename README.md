@@ -8,16 +8,16 @@ A small static multi-page HTML website dedicated to the Russian animated series 
 Smeshariki/
 ├── index.html        # Home page / entry point
 ├── repo.html         # Repository / project info page
-├── ngram.html        # N-gram analisys page
-├── barash.html       # Character analisys page: Barash
-├── karich.html       # Character analisys page: Karich
-├── kopatich.html     # Character analisys page: Kopatich
-├── krosh.html        # Character analisys page: Krosh
-├── losyash.html      # Character analisys page: Losyash
-├── nyusha.html       # Character analisys page: Nyusha
-├── pin.html          # Character analisys page: Pin
-├── sovunya.html      # Character analisys page: Sovunya
-├── yozhik.html       # Character analisys page: Yozhik
+├── ngram.html        # N-gram analysis page
+├── barash.html       # Character analysis page: Barash
+├── karich.html       # Character analysis page: Karich
+├── kopatich.html     # Character analysis page: Kopatich
+├── krosh.html        # Character analysis page: Krosh
+├── losyash.html      # Character analysis page: Losyash
+├── nyusha.html       # Character analysis page: Nyusha
+├── pin.html          # Character analysis page: Pin
+├── sovunya.html      # Character analysis page: Sovunya
+├── yozhik.html       # Character analysis page: Yozhik
 ├── styles/           # Website UI elements
     ├── fonts/        # Font collection
     ├── imgs/         # Images used on the website
@@ -80,8 +80,8 @@ Since the site is built with plain HTML and CSS, no installation or build step i
 |---|---|
 | `index.html` | Main landing page of the site |
 | `repo.html` | Project/repository information page |
-| `ngram.html` | Additional content page |
-| `barash.html`, `karich.html`, `kopatich.html`, `krosh.html`, `losyash.html`, `nyusha.html`, `pin.html`, `sovunya.html`, `yozhik.html` | Individual pages for each Smeshariki character |
+| `ngram.html` | N-grams analysis page page |
+| `barash.html`, `karich.html`, `kopatich.html`, `krosh.html`, `losyash.html`, `nyusha.html`, `pin.html`, `sovunya.html`, `yozhik.html` | Individual analysis pages for each Smeshariki character |
 
 ## Contributing
 
